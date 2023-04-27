@@ -1,0 +1,9 @@
+
+.carousel-inner{
+    max-height: 500px;
+}
+
+#cover{
+    z-index: 1;
+    background-color: rgba(20, 35, 87, 1) !important;
+}
