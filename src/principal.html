@@ -2,76 +2,223 @@
 <html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tarea: Desarrollo de página web personal</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/main.css">    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="./access/img/worldwhite.png" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tarea: Desarrollo de página web personal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="shortcut icon" href="./access/img/worldwhite.png" type="image/x-icon">
 </head>
 
 <body>
-    <!--EMCABEZADO-->
-    <header class="container-fluid">
-        
-        <i id="icono" class="bi bi-code-slash d-flex justify-content-center" style="font-size: 6rem; color: #c44c4d;"></i>
+  <!--EMCABEZADO-->
+  <p id="Inicio" class=" fs-6">Tarea: Desarrollo de página web personal</p>
+  <header class="container-fluid">
 
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 justify-content-center" id="menu">
-                        <li class="nav-item">
-                            <a class="nav-link active  fs-4" aria-current="page" href="./principal.html">Inicio</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link fs-4" href="./tablas.html">Tablas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-4" href="./video.html">Video</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-4" href="./formulario.html">Formulario</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <!--BANER-->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./access/img/slider11.png" class="banner d-block w-100" alt="slide2">
+    <nav class="navbar navbar-expand-lg bg-light" id="menu">
+      <div class="container-fluid">
+        <a class="navbar-brand p-0" href="./principal.html">
+          <i id="icono" class="bi bi-code-slash" style="font-size: 4rem; color: #c44c4d;"></i>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <ul class="navbar-nav mb-lg-0 justify-content-center" id="menu">
+              <li class="nav-item">
+                <a class="nav-link active  fs-2" aria-current="page" href="./principal.html">Inicio</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link fs-2" href="./tablas.html">Tablas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-2" href="./video.html">Video</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-2" href="./formulario.html">Formulario</a>
+              </li>
+            </ul>
           </div>
-          <div class="carousel-item">
-            <img src="./access/img/slider10.png" class="banner d-block w-100" alt="slide1">
-          </div>
-          <div class="carousel-item">
-            <img src="./access/img/slider12.png" class="banner d-block w-100" alt="slide2">
-          </div>       
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
+    </nav>
+  </header>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+  <!--BANER-->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./access/img/slider1.png" class="banner d-block w-100" alt="slide1">
+      </div>
+      <div class="carousel-item">
+        <img src="./access/img/slider2.png" class="banner d-block w-100" alt="slide2">
+      </div>
+      <div class="carousel-item">
+        <img src="./access/img/slider3.png" class="banner d-block w-100" alt="slide3">
+      </div>
+      <div class="carousel-item">
+        <img src="./access/img/slider4.png" class="banner d-block w-100" alt="slider4">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--CONTENIDO-->
+  <section class="container-fluid" id="contenido">
+    <div class="row w-75 mx-auto tex-center border-top border-3 border-danger border-opacity-25 mt-5">
+      <h2 class="text-lg-center text-md-center text-sm-center fs-3">
+        Arquitectura de Software
+      </h2>
+      <p class="text-lg-center text-md-center text-sm-center txt-wrap fs-6">
+        La arquitectura de software es el proceso de diseñar y definir la estructura de un sistema de software. Es la
+        planificación y organización de los componentes de software y las relaciones entre ellos para crear un sistema
+        de software completo y funcional. La arquitectura de software implica tomar decisiones de diseño a nivel de
+        sistema, como la elección de componentes, patrones de diseño, tecnologías, protocolos y algoritmos. También
+        puede incluir la definición de interfaces de programación de aplicaciones (API) y la selección de lenguajes de
+        programación y herramientas de desarrollo. La arquitectura de software es una parte crítica del proceso de
+        desarrollo de software y es esencial para crear sistemas de software de alta calidad, escalables y mantenibles.
+      </p>
+      <p class="text-lg-center text-md-center text-sm-center txt-wrap fs-6">
+        Los modelos o patrones de arquitectura son soluciones comprobadas y probadas que se utilizan para resolver
+        problemas comunes de diseño de software. Estos modelos describen las relaciones y las interacciones entre los
+        diferentes componentes de un sistema de software y se utilizan para guiar el proceso de diseño y desarrollo. Los
+        modelos de arquitectura pueden abordar diversos aspectos del diseño de software, desde la organización de los
+        componentes del sistema hasta la comunicación entre los diferentes módulos de software.
+      </p>
+    </div>
+    <div class="row w-75 mx-auto tex-center border-top border-3 border-danger border-opacity-25 mt-4">
+      <div class="col-lg-4 col-md-12 col-sm-12 my-auto">
+        <img class="my-auto" src="./access/img/client-server.png" width="250px" alt="client-server">
+      </div>
+      <div class="col-lg-8 col-md-12 col-sm-12mt-2 ps-4">
+        <h2 class="text-lg-start text-md-center text-sm-center fs-3">
+          Cliente Servidor
+        </h2>
+        <p class="text-lg-start text-md-center text-sm-center txt-wrap fs-6">
+          El modelo cliente-servidor es una arquitectura de software que se utiliza en aplicaciones de red para separar
+          la lógica de la aplicación en dos componentes principales: un cliente y un servidor. El cliente es un programa
+          o dispositivo que solicita servicios o recursos de un servidor, mientras que el servidor es un programa o
+          dispositivo que proporciona servicios o recursos a los clientes. La comunicación entre el cliente y el
+          servidor se realiza a través de un protocolo de comunicación, como HTTP, SMTP o FTP. Este modelo permite a los
+          desarrolladores crear aplicaciones escalables y flexibles, y separar la lógica del negocio y la presentación
+          de la aplicación en componentes distintos para facilitar el mantenimiento y la evolución de la aplicación.
+        </p>
+      </div>
+    </div>
+
+    <div class="row w-75 mx-auto tex-center border-top border-3 border-danger border-opacity-25 mt-4">
+      <div class="col-lg-4 col-md-12 col-sm-12 my-auto col-lg-4 col-md-12 col-sm-12">
+        <img class="my-auto" src="./access/img/MVC.png" width="250px" alt="client-server">
+      </div>
+      <div class="col-lg-8 col-md-12 col-sm-12 mt-2 ps-4">
+        <h2 class="text-lg-start text-md-center text-sm-center fs-3">
+          MVC
+        </h2>
+        <p class="text-lg-start text-md-center text-sm-center txt-wrap fs-6">
+          El patrón Modelo-Vista-Controlador (MVC) es una arquitectura de software que se utiliza para separar la lógica
+          de la aplicación en tres componentes principales: el Modelo, la Vista y el Controlador. El Modelo gestiona los
+          datos y la lógica de la aplicación, la Vista es responsable de presentar los datos al usuario y el Controlador
+          actúa como intermediario entre el Modelo y la Vista. El patrón MVC permite una separación clara de la lógica
+          de la aplicación en componentes distintos, lo que facilita la creación de aplicaciones escalables y flexibles.
+          Además, permite la reutilización de componentes y la creación de una interfaz de usuario clara y fácil de
+          entender para el usuario final.
+        </p>
+      </div>
+    </div>
+
+    <div class="row w-75 mx-auto tex-center border-top border-3 border-danger border-opacity-25 mt-4">
+      <div class="col-lg-4 col-md-12 col-sm-12 my-auto col-lg-4 col-md-12 col-sm-12">
+        <img class="my-auto" src="./access/img/mvp.png" width="250px" alt="client-server">
+      </div>
+      <div class="col-lg-8 col-md-12 col-sm-12 mt-2 ps-4">
+        <h2 class="text-lg-start text-md-center text-sm-center fs-3">
+          MVP
+        </h2>
+        <p class="text-lg-start text-md-center text-sm-center txt-wrap fs-6">
+          El patrón MVP (Modelo-Vista-Presentador) es un patrón de arquitectura de software que se utiliza para separar
+          la lógica de la aplicación en tres componentes principales: el Modelo, la Vista y el Presentador. Este patrón
+          es una variante del patrón MVC y se utiliza principalmente en aplicaciones de interfaz de usuario. El Modelo
+          gestiona la lógica y los datos de la aplicación, la Vista muestra la información al usuario y el Presentador
+          se encarga de la interacción entre el modelo y la vista. Las ventajas de este patrón incluyen una clara
+          separación de componentes, reutilización de componentes y mejora en la calidad del código
+        </p>
+      </div>
+    </div>
+
+    <div class="row w-75 mx-auto border-top border-3 border-danger border-opacity-25 mt-4 ">
+      <div class="col-lg-4 col-md-12 col-sm-12 my-auto">
+        <img class="my-auto" src="./access/img/mvvm.png" width="250px" alt="client-server">
+      </div>
+      <div class="col-lg-8 col-md-12 col-sm-12 mt-2 ps-4">
+        <h2 class="text-lg-start text-md-center text-sm-center fs-3">
+          MVVM
+        </h2>
+        <p class="text-lg-start text-md-center text-sm-center txt-wrap fs-6">
+          El patrón MVVM (Model-View-ViewModel) es un patrón de arquitectura de software utilizado en aplicaciones de
+          interfaz de usuario para separar la lógica de la aplicación en tres componentes principales: el Modelo, la
+          Vista y el ViewModel. El Modelo es responsable de la lógica de la aplicación y la gestión de los datos, la
+          Vista es responsable de la interfaz de usuario y el ViewModel es responsable de la interacción entre el modelo
+          y la vista. El patrón MVVM permite una separación clara de la lógica de la aplicación en componentes
+          distintos, lo que facilita la gestión del código, mejora la calidad del código y permite la reutilización de
+          componentes.
+        </p>
+      </div>
+    </div>
+
+    <div class="row w-75 mx-auto border-top border-3 border-danger border-opacity-25 mt-4 ">
+      <div class="col-lg-4 col-md-12 col-sm-12 my-auto">
+        <img class="my-auto" src="./access/img/di.png" width="250px" alt="client-server">
+      </div>
+      <div class="col-lg-8 col-md-12 col-sm-12 mt-2 ps-4">
+        <h2 class="text-lg-start text-md-center text-sm-center fs-3">
+          DI
+        </h2>
+        <p class="text-lg-start text-md-center text-sm-center txt-wrap fs-6">
+          El patrón de Inyección de Dependencias (DI, por sus siglas en inglés) es un patrón de diseño de software que
+          se utiliza para reducir la dependencia entre componentes de una aplicación. En lugar de que un objeto cree las
+          instancias de sus dependencias, DI establece que las dependencias sean suministradas por el entorno en tiempo
+          de ejecución. Esto significa que una clase no se preocupa por crear sus propias dependencias, sino que se le
+          proporcionan desde fuera. Existen varios tipos de DI, incluyendo la Inyección de Dependencias Constructor, la
+          Inyección de Dependencias Setter y la Inyección de Dependencias de Interfaz. En general, el patrón DI se utiliza para mejorar la modularidad, la escalabilidad y la reutilización del código, y se considera una buena práctica de programación.
+        </p>
+      </div>
+    </div>
+
+    <div class="row w-75 mx-auto border-top border-3 border-danger border-opacity-25 mt-4 ">
+      <div class="col-lg-4 col-md-12 col-sm-12 my-auto">
+        <img class="my-auto" src="./access/img/ws.png" width="250px" alt="client-server">
+      </div>
+      <div class="col-lg-8 col-md-12 col-sm-12 mt-2 ps-4">
+        <h2 class="text-lg-start text-md-center text-sm-center fs-3">
+          Servicio Web
+        </h2>
+        <p class="text-lg-start text-md-center text-sm-center txt-wrap fs-6">
+          El patrón de Servicio Web es utilizado en aplicaciones distribuidas para ofrecer servicios a través de una interfaz web estándar, como HTTP. Este patrón permite la integración de sistemas heterogéneos y el intercambio de datos entre ellos, independientemente del lenguaje de programación o plataforma utilizada. Los servicios web pueden ser utilizados para una amplia variedad de funcionalidades, como la consulta de bases de datos, integración de sistemas empresariales, gestión de servicios en la nube y automatización de procesos.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="container-fluid w-75 mx-auto tex-center border-top border-3 mt-4 ">
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
