@@ -70,6 +70,22 @@ body{
     color: #0000008c;
 }
 
+footer{
+    background-color: #d16464;
+    min-height: 100px;
+}
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+    margin-top: -15 !important;
+}
+
 /*MEDIA QUERIES*/
 
 @media (max-width:992px) {
