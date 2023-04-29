@@ -1,0 +1,38 @@
+@import url("../css/main.css");
+
+/*BANNER*/
+.carousel-inner{
+    max-height: 800px;
+}
+
+/*CONTENIDO*/
+#contenido{
+    padding-bottom: 20px !important;
+}
+
+#contenido .border{
+    border-color: var(--color-principal1) !important;
+}
+#contenido div{
+    overflow: hidden;
+}
+
+#contenido div img{  
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0px auto !important;
+    
+
+}
+#contenido div h2{
+    color: var(--color-principal1);
+    font-size: 26px !important;
+    font-weight: bold;
+}
+
+#contenido div p{
+    font-size: 100% !important;
+    font-family:var(--fuente-parrafos1);
+    color: #0000008c;
+}

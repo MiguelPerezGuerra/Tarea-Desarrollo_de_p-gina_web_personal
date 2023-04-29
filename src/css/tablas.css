@@ -1,0 +1,9 @@
+@import url("/src/css/main.css");
+
+/*TABLA*/
+
+#tablasvalores th {
+    font-weight: 500;
+    font-family: var(--fuente-titulos);
+    color: var(--color-fuente-oscuro3);
+}
