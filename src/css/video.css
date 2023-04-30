@@ -9,6 +9,7 @@
 
 #video{
     margin: 0px auto;
+    min-width: 450px !important;
     margin-top: 20px;
     width: 90%;
 }
