@@ -22,4 +22,24 @@
     --color-fuente-oscuro3 : #4D4D4D;
     --color-fuente-oscuro4 : #333333;
 }
+#formulario{
+    color: var(--color-fuente-oscuro4);
+    font-family: var(--fuente-parrafos2);
+    font-size: 18px !important;
+}
+#formulario input{
+    border-color: var(--color-fuente-oscuro2);
+    
+}
 
+#boton{
+    background-color: var(--color-principal1);
+    border-color: var(--color-principal2);
+    font-size: 20px !important;
+}
+
+#boton:hover{
+    color:var(--color-fuente-claro1);
+    background-color: var(--color4);
+    border-color: var(--color-fuente-claro1);
+}
