@@ -7,11 +7,12 @@
     --fuente-parrafos2 : 'Nunito Sans', sans-serif; 
     --color-principal1 : #d16464;
     --color-principal2 : #C44C4D;
-    --color1 : #DE6A6A;
+    --color1 : #e67b7b;
     --color2 : #D15252 ;
     --color3 : #AB4343;
     --color4 : #DE5FDE; 
-    --color5 : #E864A6; 
+    --color5 : #E864A6;
+    --color6 : #dc8eb7; 
     --color-fuente-claro1 : #f3f3f3;
     --color-fuente-claro2 : #F9E8E0;
     --color-fuente-claro3 : #F9E0F9;
@@ -23,3 +24,121 @@
     --color-fuente-oscuro4 : #333333;
 }
 
+
+#formulario{
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 31px;
+    height: 50vh;
+}
+
+#formulario .caja{
+    margin: 15px 15px 0px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.caja .label{
+    width: 30%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 19px;
+    margin-right: 5px;
+    color: var(--color-fuente-oscuro3);
+    font-weight: 300;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"]{
+    width: 70%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid var(--color-fuente-oscuro2);
+    padding-left: 5px;
+    color: var(--color-fuente-oscuro3);
+    background-color: transparent;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: var(--fuente-parrafos1);
+    transition: all 300ms;
+
+}
+
+form input[type="number"]{
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+form input[type="text"]:hover,
+form input[type="number"]:hover,
+form input[type="email"]:hover{
+    color: var(--color-fuente-oscuro1);
+    box-shadow: 1px 1px 1px var(--color-principal1) inset, -1px -1px 1px var(--color-principal1) inset;
+}
+
+form input[type="submit"]{
+    display: flex;
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 102px;
+    border: 1px solid var(--color6);
+    color: var(--color-fuente-claro1);
+    font-family: var(--fuente-titulos);
+    letter-spacing: 0.2px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: var(--color1);
+    transition: all 300ms;
+}
+
+form input[type="submit"]:hover{
+    background-color: var(--color-fuente-claro1);
+    border-color: var(--color-principal1);
+    color: var(--color-principal1);
+}
+
+@media (min-width:560px){
+    #formulario{
+        width: 60%;
+    }
+}
+
+@media (min-width:720px){
+    #formulario{
+        width: 50%;
+    }
+}
+
+@media (min-width:850px){
+    #formulario{
+        width: 40%;
+    }
+}
+
+@media (min-width:1081px){
+    #formulario{
+        width: 35%;
+    }
+}
+
+@media (min-width:1200px){
+    #formulario{
+        width: 30%;
+    }
+}
+
+@media (min-width:1460px){
+    #formulario{
+        width: 24%;
+    }
+}
+
+@media (min-width:1660px){
+    #formulario{
+        width: 20%;
+    }
+}

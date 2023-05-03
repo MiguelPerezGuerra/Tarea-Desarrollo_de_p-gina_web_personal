@@ -13,11 +13,12 @@
     --fuente-parrafos2 : 'Nunito Sans', sans-serif; 
     --color-principal1 : #d16464;
     --color-principal2 : #C44C4D;
-    --color1 : #DE6A6A;
+    --color1 : #e67b7b;
     --color2 : #D15252 ;
     --color3 : #AB4343;
     --color4 : #DE5FDE; 
-    --color5 : #E864A6; 
+    --color5 : #E864A6;
+    --color6 : #dc8eb7; 
     --color-fuente-claro1 : #f3f3f3;
     --color-fuente-claro2 : #F9E8E0;
     --color-fuente-claro3 : #F9E0F9;
@@ -90,7 +91,8 @@ body{
 
 .nav__menu a{   
     text-decoration: none;
-    color: var(--color-fuente-oscuro2);
+    color: var(--color-fuente-oscuro3);
+    font-weight: 500;
     font-size: 18px;
     font-weight: 400;
     transition: all 300ms;
@@ -134,7 +136,7 @@ body{
     width: 100%;
     height: 200px;
     box-shadow: 0 0 2px gray;
-    background-image: url(../access/img/servidor4.png);
+    background-image: url("/src/access/img/servidor-web-cover.webp");
     background-size: cover;
     background-position: center;
 }
@@ -167,7 +169,7 @@ body{
     font-size: 34px;
     font-family: var(--fuente-parrafos2) ;
     color: var(--color-fuente-oscuro3);
-    border-bottom: 1px solid #d1646486;
+    border-bottom: 2px solid #d1646486;
 }
 
 /*FOOTER*/
