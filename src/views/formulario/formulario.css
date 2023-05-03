@@ -11,8 +11,8 @@
     --color2 : #D15252 ;
     --color3 : #AB4343;
     --color4 : #DE5FDE; 
-    --color5 : #E864A6;
-    --color6 : #dc8eb7; 
+    --color5 : #e67b7b79;
+    --color6 : #ffc2e259; 
     --color-fuente-claro1 : #f3f3f3;
     --color-fuente-claro2 : #F9E8E0;
     --color-fuente-claro3 : #F9E0F9;
@@ -29,7 +29,7 @@
     width: 75%;
     margin: 0 auto;
     margin-bottom: 31px;
-    height: 50vh;
+    height: 51vh;
 }
 
 #formulario .caja{
@@ -45,7 +45,7 @@
     font-size: 19px;
     margin-right: 5px;
     color: var(--color-fuente-oscuro3);
-    font-weight: 300;
+    font-weight: 400;
 }
 
 form input[type="text"],
@@ -56,7 +56,7 @@ form input[type="email"]{
     box-sizing: border-box;
     border: 1px solid var(--color-fuente-oscuro2);
     padding-left: 5px;
-    color: var(--color-fuente-oscuro3);
+    color: var(--color-fuente-oscuro2);
     background-color: transparent;
     height: 30px;
     line-height: 30px;
@@ -78,8 +78,20 @@ form input[type="email"]:hover{
     box-shadow: 1px 1px 1px var(--color-principal1) inset, -1px -1px 1px var(--color-principal1) inset;
 }
 
+form input[type="text"]:focus,
+form input[type="number"]:focus,
+form input[type="email"]:focus{
+    background-color: var(--color6);
+    border:  1px solid var(--color5);
+    font-weight: 400;
+    color: var(--color-fuente-oscuro1);
+}
+
 form input[type="submit"]{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     margin: 0px auto;
     margin-top: 20px;
     width: 100px;

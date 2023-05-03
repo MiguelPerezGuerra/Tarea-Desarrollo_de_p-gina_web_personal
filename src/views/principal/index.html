@@ -41,16 +41,23 @@
   </header>
 
   <!--SLIDER-->
- 
-  
+ <div id="slider-frame">
+  <ul>
+    <li><img src="/src/access/img/slider1.webp" alt="slider1"></li>
+    <li><img src="/src/access/img/slider2.webp" alt="slider2"></li>
+    <li><img src="/src/access/img/slider9.webp" alt="slider4"></li>
+    <li><img src="/src/access/img/slider7.webp" alt="slider1"></li>
+  </ul>
+ </div>
+
   <!--CONTENIDO-->
 
-  <section class="container-fluid" id="contenido">
-    <div class="row w-75 mx-auto tex-center border-top border-3 border-danger border-opacity-25 mt-4">
-      <h2 class="text-lg-center text-md-center text-sm-center fs-3 mt-2">
+  <section id="contenido">
+    <div class="wrap-central">
+      <h2 class="titulo">
         Arquitectura de Software
       </h2>
-      <p class="text-lg-center text-md-center text-sm-center txt-wrap fs-6">
+      <p class="parrafo">
         La arquitectura de software es el proceso de diseñar y definir la estructura de un sistema de software. Es la
         planificación y organización de los componentes de software y las relaciones entre ellos para crear un sistema
         de software completo y funcional. La arquitectura de software implica tomar decisiones de diseño a nivel de
@@ -59,7 +66,8 @@
         programación y herramientas de desarrollo. La arquitectura de software es una parte crítica del proceso de
         desarrollo de software y es esencial para crear sistemas de software de alta calidad, escalables y mantenibles.
       </p>
-      <p class="text-lg-center text-md-center text-sm-center txt-wrap fs-6">
+      <br>
+      <p class="parrafo">
         Los modelos o patrones de arquitectura son soluciones comprobadas y probadas que se utilizan para resolver
         problemas comunes de diseño de software. Estos modelos describen las relaciones y las interacciones entre los
         diferentes componentes de un sistema de software y se utilizan para guiar el proceso de diseño y desarrollo. Los
@@ -67,19 +75,23 @@
         componentes del sistema hasta la comunicación entre los diferentes módulos de software.
       </p>
     </div>
-    <div class="row w-75 mx-auto tex-center border-top border-3 border-danger border-opacity-25 mt-4">
-      <div class="col-lg-4 col-md-12 col-sm-12 my-auto">
-        <img class="my-auto" src="/src/access/img/client-server.webp" width="250px" alt="client-server">
+
+    <div class="wrap-seccion">
+      <div class="imagen-seccion">
+        <img src="/src/access/img/client-server.webp" width="250px" alt="client-server">
       </div>
-      <div class="col-lg-8 col-md-12 col-sm-12mt-2 ps-4">
-        <h2 class="text-lg-start text-md-center text-sm-center fs-3 mt-2">
+      <div class="titulo-contenedor">
+        <h2 class="titulo-seccion">
           Cliente Servidor
         </h2>
-        <p class="text-lg-start text-md-center text-sm-center txt-wrap fs-6">
+        <p class="parrafo">
           El modelo cliente-servidor es una arquitectura de software que se utiliza en aplicaciones de red para separar
           la lógica de la aplicación en dos componentes principales: un cliente y un servidor. El cliente es un programa
           o dispositivo que solicita servicios o recursos de un servidor, mientras que el servidor es un programa o
-          dispositivo que proporciona servicios o recursos a los clientes. La comunicación entre el cliente y el
+          dispositivo que proporciona servicios o recursos a los clientes.
+          <br>
+          <br>
+          La comunicación entre el cliente y el
           servidor se realiza a través de un protocolo de comunicación, como HTTP, SMTP o FTP. Este modelo permite a los
           desarrolladores crear aplicaciones escalables y flexibles, y separar la lógica del negocio y la presentación
           de la aplicación en componentes distintos para facilitar el mantenimiento y la evolución de la aplicación.
@@ -87,15 +99,15 @@
       </div>
     </div>
 
-    <div class="row w-75 mx-auto tex-center border-top border-3 border-danger border-opacity-25 mt-4">
-      <div class="col-lg-4 col-md-12 col-sm-12 my-auto col-lg-4 col-md-12 col-sm-12">
-        <img class="my-auto" src="/src/access/img/MVC.webp" width="250px" alt="client-server">
+    <div class="wrap-seccion">
+      <div class="imagen-seccion">
+        <img src="/src/access/img/MVC.webp" width="250px" alt="client-server">
       </div>
-      <div class="col-lg-8 col-md-12 col-sm-12 mt-2 ps-4">
-        <h2 class="text-lg-start text-md-center text-sm-center fs-3">
+      <div class="titulo-contenedor">
+        <h2 class="titulo-seccion">
           MVC
         </h2>
-        <p class="text-lg-start text-md-center text-sm-center txt-wrap fs-6">
+        <p class="parrafo">
           El patrón Modelo-Vista-Controlador (MVC) es una arquitectura de software que se utiliza para separar la lógica
           de la aplicación en tres componentes principales: el Modelo, la Vista y el Controlador. El Modelo gestiona los
           datos y la lógica de la aplicación, la Vista es responsable de presentar los datos al usuario y el Controlador
@@ -107,15 +119,15 @@
       </div>
     </div>
 
-    <div class="row w-75 mx-auto tex-center border-top border-3 border-danger border-opacity-25 mt-4">
-      <div class="col-lg-4 col-md-12 col-sm-12 my-auto col-lg-4 col-md-12 col-sm-12">
-        <img class="my-auto" src="/src/access/img/mvp.webp" width="250px" alt="client-server">
+    <div class="wrap-seccion">
+      <div class="imagen-seccion">
+        <img src="/src/access/img/mvp.webp" width="250px" alt="client-server">
       </div>
-      <div class="col-lg-8 col-md-12 col-sm-12 mt-2 ps-4">
-        <h2 class="text-lg-start text-md-center text-sm-center fs-3">
+      <div class="titulo-contenedor">
+        <h2 class="titulo-seccion">
           MVP
         </h2>
-        <p class="text-lg-start text-md-center text-sm-center txt-wrap fs-6">
+        <p class="parrafo">
           El patrón MVP (Modelo-Vista-Presentador) es un patrón de arquitectura de software que se utiliza para separar
           la lógica de la aplicación en tres componentes principales: el Modelo, la Vista y el Presentador. Este patrón
           es una variante del patrón MVC y se utiliza principalmente en aplicaciones de interfaz de usuario. El Modelo
@@ -126,15 +138,15 @@
       </div>
     </div>
 
-    <div class="row w-75 mx-auto border-top border-3 border-danger border-opacity-25 mt-4 ">
-      <div class="col-lg-4 col-md-12 col-sm-12 my-auto">
-        <img class="my-auto" src="/src/access/img/mvvm.webp" width="250px" alt="client-server">
+    <div class="wrap-seccion">
+      <div class="imagen-seccion">
+        <img src="/src/access/img/mvvm.webp" width="250px" alt="client-server">
       </div>
-      <div class="col-lg-8 col-md-12 col-sm-12 mt-2 ps-4">
-        <h2 class="text-lg-start text-md-center text-sm-center fs-3">
+      <div class="titulo-contenedor">
+        <h2 class="titulo-seccion">
           MVVM
         </h2>
-        <p class="text-lg-start text-md-center text-sm-center txt-wrap fs-6">
+        <p class="parrafo">
           El patrón MVVM (Model-View-ViewModel) es un patrón de arquitectura de software utilizado en aplicaciones de
           interfaz de usuario para separar la lógica de la aplicación en tres componentes principales: el Modelo, la
           Vista y el ViewModel. El Modelo es responsable de la lógica de la aplicación y la gestión de los datos, la
@@ -146,15 +158,15 @@
       </div>
     </div>
 
-    <div class="row w-75 mx-auto border-top border-3 border-danger border-opacity-25 mt-4 ">
-      <div class="col-lg-4 col-md-12 col-sm-12 my-auto">
-        <img class="my-auto" src="/src/access/img/di.webp" width="250px" alt="client-server">
+    <div class="wrap-seccion">
+      <div class="imagen-seccion">
+        <img src="/src/access/img/di.webp" width="250px" alt="client-server">
       </div>
-      <div class="col-lg-8 col-md-12 col-sm-12 mt-2 ps-4">
-        <h2 class="text-lg-start text-md-center text-sm-center fs-3">
+      <div class="titulo-contenedor">
+        <h2 class="titulo-seccion">
           DI
         </h2>
-        <p class="text-lg-start text-md-center text-sm-center txt-wrap fs-6">
+        <p class="parrafo">
           El patrón de Inyección de Dependencias (DI, por sus siglas en inglés) es un patrón de diseño de software que
           se utiliza para reducir la dependencia entre componentes de una aplicación. En lugar de que un objeto cree las
           instancias de sus dependencias, DI establece que las dependencias sean suministradas por el entorno en tiempo
@@ -165,15 +177,15 @@
       </div>
     </div>
 
-    <div class="row w-75 mx-auto border-top border-3 border-danger border-opacity-25 mt-4 ">
-      <div class="col-lg-4 col-md-12 col-sm-12 my-auto">
-        <img class="my-auto" src="/src/access/img/ws.webp" width="250px" alt="client-server">
+    <div class="wrap-seccion">
+      <div class="imagen-seccion">
+      <img src="/src/access/img/ws.webp" width="250px" alt="client-server">
       </div>
-      <div class="col-lg-8 col-md-12 col-sm-12 mt-2 ps-4">
-        <h2 class="text-lg-start text-md-center text-sm-center fs-3">
+      <div class="titulo-contenedor">
+        <h2 class="titulo-seccion">
           Servicio Web
         </h2>
-        <p class="text-lg-start text-md-center text-sm-center txt-wrap fs-6">
+        <p class="parrafo">
           El patrón de Servicio Web es utilizado en aplicaciones distribuidas para ofrecer servicios a través de una interfaz web estándar, como HTTP. Este patrón permite la integración de sistemas heterogéneos y el intercambio de datos entre ellos, independientemente del lenguaje de programación o plataforma utilizada. Los servicios web pueden ser utilizados para una amplia variedad de funcionalidades, como la consulta de bases de datos, integración de sistemas empresariales, gestión de servicios en la nube y automatización de procesos.
         </p>
       </div>

@@ -41,9 +41,13 @@ body{
     font-family: var(--fuente-titulos) !important;
     font-weight: lighter;
     background-color: var(--color-fuente-claro1);
-    height: 95vh;
+    height: 100%;
 }
 
+.clearfix{
+    clear: both;
+    float: none;
+}
 
 /*MENU*/
 .nav{
@@ -174,6 +178,8 @@ body{
 
 /*FOOTER*/
 footer{
+    position: relative;
+    bottom: 0;
     width: 100%;
     padding: 10px;
     background-color: var(--color-principal1);
