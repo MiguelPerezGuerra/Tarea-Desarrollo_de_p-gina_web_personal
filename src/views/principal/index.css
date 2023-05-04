@@ -1,29 +1,5 @@
 @import url("/src/css/main.css");
 
-/*variables*/
-:root{
-    --fuente-titulos : 'Montserrat', sans-serif;
-    --fuente-parrafos1 :  'Poppins', sans-serif;
-    --fuente-parrafos2 : 'Nunito Sans', sans-serif; 
-    --color-principal1 : #d16464;
-    --color-principal2 : #C44C4D;
-    --color1 : #e67b7b;
-    --color2 : #D15252 ;
-    --color3 : #AB4343;
-    --color4 : #DE5FDE; 
-    --color5 : #E864A6;
-    --color6 : #dc8eb7; 
-    --color-fuente-claro1 : #f3f3f3;
-    --color-fuente-claro2 : #F9E8E0;
-    --color-fuente-claro3 : #F9E0F9;
-    --color-fuente-claro4 : #DBC5D0;   
-    --color-fuente-claro5 : #DBC9C5;
-    --color-fuente-oscuro1 : #0000008c;
-    --color-fuente-oscuro2 : #8C8C8C;
-    --color-fuente-oscuro3 : #4D4D4D;
-    --color-fuente-oscuro4 : #333333;
-}
-
 body{
     background-color: white !important;
 }
@@ -115,9 +91,16 @@ body{
     font-size: 16px;
 }
 
+
+.wrap-seccion .imagen-seccion img{
+    width: 250px;
+    align-items: center;
+    margin: 0px auto;
+}
+
 .wrap-seccion .titulo-seccion{
     color: var(--color-principal1);
-    margin-bottom: 10px;
+    margin-bottom: 10px;  
 }
 
 
@@ -133,11 +116,8 @@ body{
         display: flex;
         width: 40%;
     }
-    .wrap-seccion img{
+    .wrap-seccion .imagen-seccion img{
         width: 100%;
-        justify-content: center;      
-        margin: 0px auto;
-        margin-right: 10px;
     }
     
     .wrap-seccion .titulo-contenedor{
@@ -156,13 +136,24 @@ body{
 
 @media (min-width:950px){
     .wrap-seccion{
-        width: 70%;
+        width: 85%;
+    }
+
+    .wrap-seccion .imagen-seccion img{
+        width:100%;
+        align-items: center;
+        margin: 0 auto;
     }
 }
 
 @media (min-width:1081px){
     .wrap-seccion{
         width: 70%;
+    }
+
+    .wrap-seccion .titulo-contenedor{
+        height: 100%; 
+        margin-top: 30px;
     }
 }
 

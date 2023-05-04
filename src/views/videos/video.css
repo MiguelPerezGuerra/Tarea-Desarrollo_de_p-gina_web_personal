@@ -1,15 +1,13 @@
 @import url("/src/css/main.css");
 
 #contenedor{
-    margin-bottom: 120px !important;
-    width: 75%;
+    width: 70%;
     margin: 0px auto;
+    margin-bottom: 28px;
     display: flex;
 }
 
 #video{
     margin: 0px auto;
-    min-width: 450px !important;
-    margin-top: 20px;
     width: 90%;
 }

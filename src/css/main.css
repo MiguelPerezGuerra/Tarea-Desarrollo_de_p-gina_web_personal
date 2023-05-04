@@ -44,11 +44,6 @@ body{
     height: 100%;
 }
 
-.clearfix{
-    clear: both;
-    float: none;
-}
-
 /*MENU*/
 .nav{
     
@@ -90,7 +85,8 @@ body{
 
 .nav__menu li{
     list-style: none;
-    display: none;
+    display: none; 
+    cursor: pointer;
 }
 
 .nav__menu a{   

@@ -1,34 +1,10 @@
 @import url("/src/css/main.css");
 
-/*variables*/
-:root{
-    --fuente-titulos : 'Montserrat', sans-serif;
-    --fuente-parrafos1 :  'Poppins', sans-serif;
-    --fuente-parrafos2 : 'Nunito Sans', sans-serif; 
-    --color-principal1 : #d16464;
-    --color-principal2 : #C44C4D;
-    --color1 : #e67b7b;
-    --color2 : #D15252 ;
-    --color3 : #AB4343;
-    --color4 : #DE5FDE; 
-    --color5 : #e67b7b79;
-    --color6 : #ffc2e259; 
-    --color-fuente-claro1 : #f3f3f3;
-    --color-fuente-claro2 : #F9E8E0;
-    --color-fuente-claro3 : #F9E0F9;
-    --color-fuente-claro4 : #DBC5D0;   
-    --color-fuente-claro5 : #DBC9C5;
-    --color-fuente-oscuro1 : #0000008c;
-    --color-fuente-oscuro2 : #8C8C8C;
-    --color-fuente-oscuro3 : #4D4D4D;
-    --color-fuente-oscuro4 : #333333;
-}
-
 
 #formulario{
     width: 75%;
     margin: 0 auto;
-    margin-bottom: 31px;
+    margin-bottom: 41px;
     height: 51vh;
 }
 
@@ -42,7 +18,7 @@
     width: 30%;
     height: 30px;
     line-height: 30px;
-    font-size: 19px;
+    font-size: 18px;
     margin-right: 5px;
     color: var(--color-fuente-oscuro3);
     font-weight: 400;

@@ -5,91 +5,70 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tarea: Desarrollo de página web personal</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/video.css">
+  <link rel="stylesheet" href="./video.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <link rel="shortcut icon" href="./access/img/worldwhite.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/src/access/img/worldwhite.webp" type="image/x-icon">
 </head>
 
 <body>
-  <!--EMCABEZADO-->
-  <p id="Inicio" class=" fs-6">Tarea: Desarrollo de página web personal</p>
-  <header class="container-fluid">
 
-    <nav class="navbar navbar-expand-lg bg-light" id="menu">
-      <div class="container-fluid">
-        <a class="navbar-brand p-0" href="./principal.html">
-          <i id="icono" class="bi bi-code-slash" style="font-size: 4rem; color: #c44c4d;"></i>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <ul class="navbar-nav mb-lg-0 justify-content-center" id="menu">
-              <li class="nav-item">
-                <a class="nav-link active  fs-2" aria-current="page" href="./principal.html">Inicio</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link fs-2" href="./tablas.html">Tablas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-2" href="./video.html">Video</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fs-2" href="./formulario.html">Formulario</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+  <!--menu-->
+  <header>
+
+    <nav class="nav">
+      <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+      <label for="nav__checkbox" class="nav__toggle">
+        <span id="menu" class="material-symbols-outlined">
+          menu
+        </span>
+        <span id="close" class="material-symbols-outlined">
+          close
+        </span>
+      </label>
+      <ul class="nav__menu">
+        <li class="menu__logo">
+          <span id="code" class="material-symbols-outlined">
+            code_off
+          </span>
+        </li>
+        <li><a href="../principal/index.html">Inicio</a></li>
+        <li><a href="../tablas/tablas.html">Tablas</a></li>
+        <li><a href="../videos/video.html">Video</a></li>
+        <li><a href="../formulario/formulario.html">Formulario</a></li>
+      </ul>
     </nav>
+
   </header>
 
+
   <!--BANER-->
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-    <div class="carousel-inner my-auto mx-auto">
-      <div class="carousel-item active my-auto mx-auto">
-        <img id="imagen" src="./access/img/servidor4.png" class="d-block w-100" alt="servidor">
-        <div id="bannerimagne"  class="carousel-caption  d-lg-flex d-md-flex my-auto mx-auto">
-          <h1 class="  d-lg-flex d-md-flex my-auto mx-auto"><i class="bi bi-youtube mx-auto my-auto"></i></h1>
-        </div>
+  <section class="banner">
+    <div class="banner__icon">
+      <span class="material-symbols-outlined">
+        smart_display
+      </span>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="" aria-hidden="false"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="" aria-hidden="false"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+
+  </section>
 
   <!--CONTENIDO-->
-  <h2 id="titulo"class="w-75 mx-auto mt-4 text-lg-center text-md-center text-sm-center border-bottom border-2 border-danger border-opacity-50">VIDEO INCRUSTADO</h2>
+  <h2 id="titulo">VIDEO</h2>
 
   <section id="contenedor">
-    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Hmz5tCyOJ_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe id="video" width="560" height="500" src="https://www.youtube.com/embed/Hmz5tCyOJ_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </section>
   
-  <footer class="w-100 d-flex aling-items justify-content-center flex-wrap w-75 mx-auto tex-center border-top border-3 mt-2 ">
-    <div class="row w-100">
-      <p class="fs-5 px-3 pt-3">Miguel Darío Pérez Guerra. &copy; <span class="fs-6">Las imagenes utilizadas en este sitio solo se usan para fines educativos</span></p>
-    </div>
-    <div class="row">
-      <div id="iconos" class="d-block aling-items justify-content-center">
-        <a href="#"><i class="bi bi-github"></i></a>    
-        <a href="#"><i class="bi bi-linkedin"></i></a>
-        <a href="#"><i class="bi bi-instagram"></i></a>
-      </div>
+
+  <footer>
+    <p>Miguel Darío Pérez Guerra &copy; <span class="texto__pequeno">Los elementos utilizados en esta pagina solo son de
+        uso educativo</span></p>
+    <div class="footer__iconos">
+      <a href="#"><i class="bi bi-github"></i></a>
+      <a href="#"><i class="bi bi-linkedin"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
     </div>
   </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
 </body>
 
 </html>
