@@ -89,6 +89,17 @@ form input[type="submit"]:hover{
     color: var(--color-principal1);
 }
 
+.warnings{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 15px;
+    color: var(--color-principal1);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
 @media (min-width:560px){
     #formulario{
         width: 60%;
